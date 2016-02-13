@@ -1,8 +1,6 @@
-## fabric8 java docker image
+## raspberrypi fabric8 java docker image
 
 This project builds a [docker](http://docker.io/) image for running a Java application
-
-Exposes port: **8778** by default for Jolokia. See [how to configure or disable jolokia](https://registry.hub.docker.com/u/consol/java-jolokia/)
 
 This image is intended to be use as a base image.
 
@@ -19,8 +17,6 @@ Set the following environment variables:
 You should use either **JAR** or **MAIN** variables, not both at the same time.
 
 ### Building the docker container locally
-
-We have a Docker Index trusted build setup to automatically rebuild the fabric8/hawtio container whenever the [Dockerfile](https://github.com/fabric8io/java-docker/blob/master/Dockerfile) is updated, so you shouldn't have to rebuild it locally. But if you want to, here's now to do it...
 
 Once you have [installed docker](https://www.docker.io/gettingstarted/#h_installation) you should be able to create the containers via the following:
 
